@@ -1,0 +1,111 @@
+修复美味天天连（需要运行两次后直接去看乐园币明细,不要看日记），魔方，厨师，连连看等。
+修复账号检测速度
+
+白号一般有2000到2400乐园币
+黑号或实名的号不够1000乐园币
+
+饿了么自动抓ck(下载安装，登录，进设置，复制ck)
+https://fsnb.lanzouo.com/iZg5p25p5zgj
+注意：
+1.首次需要成语闯关新手教程过
+2.梦幻小院手动玩到4级
+3.贪吃蛇，消除大作战，健康守卫战都去手动玩两关
+
+
+环境变量名；elmck
+
+安装依赖；NodeJs下
+md5
+request
+moment
+axios
+
+新建以下13个任务
+
+
+饿了么账号有效性检测
+task Yzyxmm_elm/ele_check_ck.js
+0 01,12 * * *
+
+饿了么乐成语闯关
+task Yzyxmm_elm/ele_cycg.js
+40 13,14,15,17,19,21 * * *
+
+饿了么美食摊
+task Yzyxmm_elm/ele_mst.js
+40 2,3,5,8,9,11 * * *
+
+饿了么乐园币
+task Yzyxmm_elm/ele_lyb.js
+7 1,2,3,4,5,6,13,15 * * *
+
+饿了么2048
+task Yzyxmm_elm/ele_2048.js
+11 12,13,14,15,21,22,23 * * *
+
+饿了么资产推送
+task Yzyxmm_elm/ele_assest.js
+0 22 * * *
+
+饿了么合成甜蜜蜜
+task Yzyxmm_elm/ele_hctmm.js
+3 13,14,15,17,19,21 * * *
+
+饿了么饿了个饿
+task Yzyxmm_elm/ele_elge.js
+10,11,12,13,17,19,21 * * *
+
+	
+饿了么梦幻小院
+task Yzyxmm_elm/ele_mhxy.js
+1 0,6,12,18,21 * * *
+
+饿了么特级厨师
+task Yzyxmm_elm/ele_tjcs.js
+23 9 * * *
+
+饿了么连连看
+task Yzyxmm_elm/ele_llk.js
+7 17 * * *
+
+
+饿了么食神客栈
+task Yzyxmm_elm/ele_sskz.js
+0 0/6 * * *
+食神客栈运行比较慢谨慎运行
+
+饿了么福尔魔方
+task Yzyxmm_elm/ele_mf.js
+0 5 5 * * *
+
+
+问题解答
+
+问；为什么没有美味天天连这个脚本？
+答；运行两次  饿了么乐园币，ele_lyb.js  不要看日志，直接去看乐园币明细
+会发现美味天天连的300乐园币。
+
+问；为啥我按上面做了还是没有300乐园币。
+答；请查看乐园币明细是不是以有美味天天连不过是1金币。这是你老脚本导致的和我无关请全部使用我提供的脚本。
+
+问；有没拉库链接
+答；有的链接: https://pan.baidu.com/s/1ifToFk1kY0OWgTk1alEwww?pwd=simi 提取码: simi
+但新增更新脚本要手动
+
+如美味天天连，魔方，厨师，连连看等，所以还是建议手动上传。
+
+
+问；能自动续期吗？
+答；续期大部分账号不行了，和账号有关无解。
+
+
+
+一键提取appck版本https://www.123pan.com/s/zeypjv-4oml.htm
+内置免root版本可一键提取饿了么CK，带token可以自动续期有效期，使用方法；打开软件-我的-上方齿轮-弹窗提取。
+
+
+
+
+
+
+声明：此库所有内容仅用于个人学习！！！
